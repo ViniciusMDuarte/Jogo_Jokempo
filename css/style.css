@@ -119,15 +119,6 @@
     margin: 30px 0 0;
 }
 
-#computador #computador-escolha a {
-    opacity: 0.3;
-}
-
-#computador #computador-escolha a:hover {
-    opacity: 1;
-}
-
-
 #versus {
     padding: 20px;
     font-size: 3em;
