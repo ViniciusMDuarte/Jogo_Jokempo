@@ -80,16 +80,12 @@
 }
 
 
-#jogador #jogador-escolha img {
-    max-width: 80px;
-}
-
 #jogador-escolha #computador-escolha, li {
     text-align: center;
 }
 
 #jogador-escolha #computador-escolha, img {
-    max-width:60px;
+    max-width:80px;
 
 }
 
@@ -133,8 +129,8 @@
 
 
 #versus {
-    padding: 30px;
-    font-size: 5em;
+    padding: 20px;
+    font-size: 3em;
 }
 
 #mensagem {
