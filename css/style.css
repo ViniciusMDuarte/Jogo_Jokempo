@@ -1,0 +1,149 @@
+
+#principal {
+    margin: 0 20px;
+    font-size: 1em;
+    font-family: Helvetica Neue, Helvetica, Arial;
+}
+
+#principal h1 {
+    text-align: center;
+    margin: 50px 0;
+
+}
+
+#jogador, #computador {
+    position: relative;
+    flex-grow: 1;
+    border-radius: 5px;
+    color:#fff;
+    padding: 20px;
+}
+
+
+#jogador-pontos, #computador-pontos {
+    position: absolute;
+    top: 8px;
+}
+
+#jogador h2, #computador h2 {
+   margin: 0;
+   padding: 0;
+}
+
+#jogador-nome, #computador-nome {
+    font-size: 24px;
+}
+
+#jogador-pontos, #computador-pontos {
+    font-size: 52px;
+}
+
+#jogador-pontos {
+    right: 20px;
+}
+
+#placar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#jogador {
+    background-color: blue;
+}
+
+#jogador #jogador-escolha {
+    list-style: none;
+    margin: 30px 0 0;
+    padding: 0;
+}
+
+
+#computador ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#jogador #jogador-escolha li {
+    display: inline;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+#jogador #jogador-escolha a {
+    opacity: 0.3;
+}
+
+#jogador #jogador-escolha a:hover {
+    opacity: 1;
+}
+
+
+#jogador #jogador-escolha img {
+    max-width: 80px;
+}
+
+#jogador-escolha #computador-escolha, li {
+    text-align: center;
+}
+
+#jogador-escolha #computador-escolha, img {
+    max-width:60px;
+
+}
+
+
+#jogador-escolha, #computador-escolha {
+    text-align: center;
+    margin: 20px auto;
+    padding: 0 0; 
+}
+
+
+#computador #computador-escolha li {
+    display: inline;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+#computador #computador-escolha img {
+    max-width: 80px;
+}
+
+#computador {
+    background-color: red;
+
+}
+#computador-nome {
+    text-align: right;
+}
+
+#computador #computador-escolha {
+    margin: 30px 0 0;
+}
+
+#computador #computador-escolha a {
+    opacity: 0.3;
+}
+
+#computador #computador-escolha a:hover {
+    opacity: 1;
+}
+
+
+#versus {
+    padding: 30px;
+    font-size: 5em;
+}
+
+#mensagem {
+    background-color: gray;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px 0 0;
+    color: #fff;
+    font-size: 24px;
+}
+
